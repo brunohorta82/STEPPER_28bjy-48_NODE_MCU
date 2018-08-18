@@ -16,7 +16,7 @@ void setup() {
 }
 
 void loop() {
-  stepsRequired = STEPS_PER_REV /2;
+  stepsRequired = STEPS_PER_OUT_REV /2;
   myStepper.setSpeed(700);
   myStepper.step(stepsRequired);
 }
